@@ -15,10 +15,11 @@ S = {Floor 1, Floor 2, Floor 3}
 ### Sample State
 Floor 2
 ### Action Space
+```
 1.Move Up
 2.Move Down
 3.Stay
-
+```
 ### Sample Action
 Move Up
 
