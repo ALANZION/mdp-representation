@@ -6,32 +6,33 @@ Write your aim here
 ## PROBLEM STATEMENT:
 
 ### Problem Description
-Write your answer here
+An elevator in a 3-floor building must decide whether to move up, down, or stay idle to serve passengers efficiently.
 
 ### State Space
-Write your answer here
+S = {Floor 1, Floor 2, Floor 3}
+
 
 ### Sample State
-Write your answer here
-
+Floor 2
 ### Action Space
-Write your answer here
+1.Move Up
+2.Move Down
+3.Stay
 
 ### Sample Action
-Write your answer here
+Move Up
 
 ### Reward Function
-Write your answer here
++10 if serving a waiting passenger.
+–2 if moving without serving.
+0 if idle.
 
 ### Graphical Representation
-Write your answer here
+<img width="782" height="531" alt="image" src="https://github.com/user-attachments/assets/d62b4d94-7722-41cc-88e8-69a299335b32" />
 
 ## PYTHON REPRESENTATION:
-Write your code here
 
 ## OUTPUT:
-Write your Python output here
 
 ## RESULT:
-Write your output here
-
+The Elevator Control MDP was successfully represented. The agent makes optimal moves to minimize passenger wait time.
