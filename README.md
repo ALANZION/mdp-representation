@@ -4,7 +4,9 @@
 To represent a Markov Decision Process(MDP) problem in the following ways.
 
 1.Text representation
+
 2.Graphical representation
+
 3.Python - Dictonary representation
 
 ## PROBLEM STATEMENT:
@@ -20,14 +22,18 @@ S = {Floor 1, Floor 2, Floor 3}
 Floor 2
 ### Action Space
 1.Move Up
+
 2.Move Down
+
 3.Stay
 ### Sample Action
 Move Up
 
 ### Reward Function
 +10 if serving a waiting passenger.
+
 –2 if moving without serving.
+
 0 if idle.
 
 ### Graphical Representation
