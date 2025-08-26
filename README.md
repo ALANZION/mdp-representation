@@ -40,7 +40,46 @@ Move Up
 <img width="782" height="531" alt="image" src="https://github.com/user-attachments/assets/d62b4d94-7722-41cc-88e8-69a299335b32" />
 
 ## PYTHON REPRESENTATION:
+P = {
+    1: {   # Floor 1
+        0: [(0.8, 2, +5, False), (0.2, 1, -1, False)],
+        1: [(1.0, 1, 0, False)],
+        2: [(1.0, 1, 0, False)]
+    },
+    2: {   # Floor 2
+        0: [(0.8, 3, +10, False), (0.2, 2, -1, False)],
+        1: [(0.8, 1, +5, False), (0.2, 2, -1, False)],
+        2: [(1.0, 2, 0, False)]
+    },
+    3: {   # Floor 3
+        0: [(1.0, 3, 0, False)],
+        1: [(0.8, 2, +5, False), (0.2, 3, -1, False)],
+        2: [(1.0, 3, 0, False)]
+    }
+}
 
-## OUTPUT
+
+## OUTPUT:
+>>> P[1]
+{
+ 0: [(0.8, 2, 5, False), (0.2, 1, -1, False)],
+ 1: [(1.0, 1, 0, False)],
+ 2: [(1.0, 1, 0, False)]
+}
+
+>>> P[2]
+{
+ 0: [(0.8, 3, 10, False), (0.2, 2, -1, False)],
+ 1: [(0.8, 1, 5, False), (0.2, 2, -1, False)],
+ 2: [(1.0, 2, 0, False)]
+}
+
+>>> P[3]
+{
+ 0: [(1.0, 3, 0, False)],
+ 1: [(0.8, 2, 5, False), (0.2, 3, -1, False)],
+ 2: [(1.0, 3, 0, False)]
+}
+
 ## RESULT:
 The Elevator Control MDP was successfully represented. The agent makes optimal moves to minimize passenger wait time
