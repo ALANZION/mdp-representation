@@ -1,7 +1,11 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+To represent a Markov Decision Process(MDP) problem in the following ways.
+
+1.Text representation
+2.Graphical representation
+3.Python - Dictonary representation
 
 ## PROBLEM STATEMENT:
 
@@ -15,11 +19,9 @@ S = {Floor 1, Floor 2, Floor 3}
 ### Sample State
 Floor 2
 ### Action Space
-```
 1.Move Up
 2.Move Down
 3.Stay
-```
 ### Sample Action
 Move Up
 
@@ -33,7 +35,6 @@ Move Up
 
 ## PYTHON REPRESENTATION:
 
-## OUTPUT:
-
+## OUTPUT
 ## RESULT:
-The Elevator Control MDP was successfully represented. The agent makes optimal moves to minimize passenger wait time.
+The Elevator Control MDP was successfully represented. The agent makes optimal moves to minimize passenger wait time
